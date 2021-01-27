@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+</head>
+<body>
+	<section class="main">
+		<header class="header">
+			<div class="container ">
+				<div class="row">
+					<div class="col-10 col-md-8">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/main-logo.png" alt="" class="main__logo_big">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/logo_gray.png" alt="" class="main__logo_mob">
+					</div>
+					
+					<div class="col-4 header__contacts">
+						<div class="row justify-content-between">
+							<div class="d-flex flex-column align-items-end">
+								<a href="tel:+380500400400" class="header__phone">+380 500 400 400</a>
+								<span class="header__span">Free call 24/7</span>
+							</div>
+							<div>
+								<a href="#" class="btn contact__btn ">Contact us</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-2 header__mob">
+						<div class="header__burger ">
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container main__text">
+			<div class="col-10 col-lg-7">
+				<h1>Apply for a free 30-minute
+					software project strategy session</h1>
+			</div>
+		</div>
+	</section>
+	<div class="menu__mob">
+		<a href="#" class="menu__link">Brief Overview <span class="more__arrow">></span></a>
+		<a href="#" class="menu__link">Testimonials <span class="more__arrow">></span></a>
+	</div>
+	<section class="form">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]'); ?>
+				</div>
+				<div class="col-lg-8">
+					<div class="d-flex justify-content-around flex-wrap">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/header-item1.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/header-item2.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/header-item3.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/header-item4.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/header-item5.png" alt="">
+				</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="brief">
+		<div class="container d-flex flex-column align-items-center">
+			<h2 class="section__title">Here’s a brief overview of what
+				will be covered on the call</h2>
+			<div class="d-flex w-100 flex-xl-row flex-column justify-content-between align-items-center align-items-xl-stretch">
+				<div class="col-xl-4 brief__item">
+					<p class="brief__title">You get structured <br>requirements</p>
+					<p class="brief__text brief__text__bg1">You get a well-structured list of high-level project requirements you don’t even have. They serve a basis for further functional and non-functional requirements gathering, which, if collected correctly, are a key to successful project execution.</p>
+				</div>
+				<div class="col-xl-4 brief__item">
+					<p class="brief__title">We provide Work Breakdown Structure</p>
+					<p class="brief__text brief__text__bg2">You get a Work Breakdown Structure (WBS) document. If you have that, rest assured your project goes as scheduled. We divide the project scope into smaller components and tasks to do to finish the project. This is your number one guarantee that you get an accurate estimation and project schedule.</p>
+				</div>
+				<div class="col-xl-4 brief__item">
+					<p class="brief__title">You get recommendations on technology</p>
+					<p class="brief__text brief__text__bg3">Based on our strong experience and expertise, we know what technology will fit your project best. Our technical experts determine what technology, framework, platform, programming language are most suitable to develop your project and gain its goals.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+	<section class="testimonials">
+		<div class="container d-flex flex-column align-items-center">
+			<h2 class="section__title">Testimonials</h2>
+			<h3 class="section__subtitle">We’ve helped hundreds of customers realize their
+				idea into successful software projects! </h3>
+			<p class="section__subtitle_sm">Here’s what our clients say:</p>
+		</div>
+		<div class="container slider__container">
+			<!-- ITEM -->
+			<div class="slider__item">
+				<div class="slider__head ">
+					<div class="slider__photo">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="">
+					</div>
+					<div class="slider__bio">
+						<div>
+							<p class="slider__name">Phil Reynolds</p>
+							<p class="slider__company">CEO at BriteCore</p>
+						</div>
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide11.png" alt="">
+					</div>
+					<div class="slider__text">
+						<p>“I was looking at an [internal] estimate in the $100,000 range, but Diceus wrapped the project up for around $60,000. The Diceus team has consistently supported the BriteCore team for many years. Their engineers are well-educated and highly invested in the ongoing quality of the BriteCore platform with sustained relationships that extend over four years. We appreciate everything the Diceus team brings to the table as a development partner.”</p>
+					</div>
+				</div>
+			</div>
+			<!-- END ITEM-->
+
+			<!-- ITEM -->
+			<div class="slider__item">
+				<div class="slider__head ">
+					<div class="slider__photo">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide2.png" alt="">
+					</div>
+					<div class="slider__bio">
+						<div>
+							<p class="slider__name">Søren Hundebøll</p>
+							<p class="slider__company">Co-Founder at RiskVille</p>
+						</div>
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide22.png" alt="">
+					</div>
+					<div class="slider__text">
+						<p>“Existing clients were introduced to the cloud software and are eager to adopt it. Although accustomed to full-stack development, the team is flexible in this work, because they managed to develop a certain part of the stack. Diceus could recommend alternatives to solve the issues.”</p>
+					</div>
+				</div>
+			</div>
+			<!-- END ITEM-->
+
+			<!-- ITEM -->
+			<div class="slider__item">
+				<div class="slider__head ">
+					<div class="slider__photo">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="">
+					</div>
+					<div class="slider__bio">
+						<div>
+							<p class="slider__name">Mohammed Albarrak</p>
+							<p class="slider__company">Solutions Development
+								Manager at Lean Business
+								Services</p>
+						</div>
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide33.png" alt="">
+					</div>
+					<div class="slider__text">
+						<p>“The platform automates the entire complaint workflow and ensures patient identity. We can now plan error compensation and prevention faster!”</p>
+					</div>
+				</div>
+			</div>
+			<!-- END ITEM-->
+
+			<!-- ITEM -->
+			<div class="slider__item">
+				<div class="slider__head ">
+					<div class="slider__photo">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="">
+					</div>
+					<div class="slider__bio">
+						<div>
+							<p class="slider__name">Phil Reynolds</p>
+							<p class="slider__company">CEO at BriteCore</p>
+						</div>
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide11.png" alt="">
+					</div>
+					<div class="slider__text">
+						<p>“I was looking at an [internal] estimate in the $100,000 range, but Diceus wrapped the project up for around $60,000. The Diceus team has consistently supported the BriteCore team for many years. Their engineers are well-educated and highly invested in the ongoing quality of the BriteCore platform with sustained relationships that extend over four years. We appreciate everything the Diceus team brings to the table as a development partner.”</p>
+					</div>
+				</div>
+			</div>
+			<!-- END ITEM-->
+
+			<!-- ITEM -->
+			<div class="slider__item">
+				<div class="slider__head ">
+					<div class="slider__photo">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="">
+					</div>
+					<div class="slider__bio">
+						<div>
+							<p class="slider__name">Phil Reynolds</p>
+							<p class="slider__company">CEO at BriteCore</p>
+						</div>
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide11.png" alt="">
+					</div>
+					<div class="slider__text">
+						<p>“I was looking at an [internal] estimate in the $100,000 range, but Diceus wrapped the project up for around $60,000. The Diceus team has consistently supported the BriteCore team for many years. Their engineers are well-educated and highly invested in the ongoing quality of the BriteCore platform with sustained relationships that extend over four years. We appreciate everything the Diceus team brings to the table as a development partner.”</p>
+					</div>
+				</div>
+			</div>
+			<!-- END ITEM-->
+
+			<!-- ITEM -->
+			<div class="slider__item">
+				<div class="slider__head ">
+					<div class="slider__photo">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="">
+					</div>
+					<div class="slider__bio">
+						<div>
+							<p class="slider__name">Phil Reynolds</p>
+							<p class="slider__company">CEO at BriteCore</p>
+						</div>
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide11.png" alt="">
+					</div>
+					<div class="slider__text">
+						<p>“I was looking at an [internal] estimate in the $100,000 range, but Diceus wrapped the project up for around $60,000. The Diceus team has consistently supported the BriteCore team for many years. Their engineers are well-educated and highly invested in the ongoing quality of the BriteCore platform with sustained relationships that extend over four years. We appreciate everything the Diceus team brings to the table as a development partner.”</p>
+					</div>
+				</div>
+			</div>
+			<!-- END ITEM-->
+
+			<!-- ITEM -->
+			<div class="slider__item">
+				<div class="slider__head ">
+					<div class="slider__photo">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="">
+					</div>
+					<div class="slider__bio">
+						<div>
+							<p class="slider__name">Phil Reynolds</p>
+							<p class="slider__company">CEO at BriteCore</p>
+						</div>
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide11.png" alt="">
+					</div>
+					<div class="slider__text">
+						<p>“I was looking at an [internal] estimate in the $100,000 range, but Diceus wrapped the project up for around $60,000. The Diceus team has consistently supported the BriteCore team for many years. Their engineers are well-educated and highly invested in the ongoing quality of the BriteCore platform with sustained relationships that extend over four years. We appreciate everything the Diceus team brings to the table as a development partner.”</p>
+					</div>
+				</div>
+			</div>
+			<!-- END ITEM-->
+
+			<!-- ITEM -->
+			<div class="slider__item">
+				<div class="slider__head ">
+					<div class="slider__photo">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="">
+					</div>
+					<div class="slider__bio">
+						<div>
+							<p class="slider__name">Phil Reynolds</p>
+							<p class="slider__company">CEO at BriteCore</p>
+						</div>
+						<img src="<?php echo get_template_directory_uri(); ?>/img/slide11.png" alt="">
+					</div>
+					<div class="slider__text">
+						<p>“I was looking at an [internal] estimate in the $100,000 range, but Diceus wrapped the project up for around $60,000. The Diceus team has consistently supported the BriteCore team for many years. Their engineers are well-educated and highly invested in the ongoing quality of the BriteCore platform with sustained relationships that extend over four years. We appreciate everything the Diceus team brings to the table as a development partner.”</p>
+					</div>
+				</div>
+			</div>
+			<!-- END ITEM-->
+			
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 d-flex justify-content-center justify-content-lg-start"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_gray.png" alt=""></div>
+				<div class="col-lg-3 d-flex justify-content-center">
+					<div class="d-flex flex-column align-items-start">
+						<span class="header__span">Call-center 24/7</span>
+						<a href="tel:+380500400400" class="footer__phone">+380 500 400 400</a>						
+					</div>
+				</div>
+				<div class="col-lg-3 d-flex justify-content-center">
+					<div class="d-flex flex-column align-items-start">
+						<span class="header__span">Feel free to contact us</span>
+						<a href="mailto:info@diceus.com" class="footer__phone">info@diceus.com</a>						
+					</div>
+				</div>
+				<div class="col-lg-3 d-flex justify-content-center justify-content-lg-end align-items-center footer__social">
+					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fb.png" alt=""></a>
+					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/linked.png" alt=""></a>
+					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/twit.png" alt=""></a>
+					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/youtube.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	
+	<script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
+</body>
+</html>
